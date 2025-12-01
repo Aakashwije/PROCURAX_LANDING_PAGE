@@ -96,6 +96,14 @@
         border-color: transparent;
       }
     }
+    @media (max-width: 640px) {
+  .typing-text {
+    font-size: 0.9rem;            /* slightly smaller */
+    white-space: normal;          /* allow wrapping */
+    border-right: none;           /* remove typing cursor for mobile */
+    animation: none;              /* stop typing animation */
+  }
+}
 
     /* Mobile menu animation */
     .mobile-menu {
